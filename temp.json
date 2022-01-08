@@ -1,0 +1,134 @@
+{
+  "t": "MESSAGE_CREATE",
+  "s": 10,
+  "op": 0,
+  "d": {
+    "type": 19,
+    "tts": false,
+    "timestamp": "2021-10-11T16:34:12.656000+00:00",
+    "referenced_message": {
+      "type": 19,
+      "tts": false,
+      "timestamp": "2021-10-11T16:28:58.801000+00:00",
+      "pinned": false,
+      "message_reference": {
+        "message_id": "897157939121492049",
+        "guild_id": "817821665139359744",
+        "channel_id": "850376995145515028"
+      },
+      "mentions": [
+        {
+          "username": "RTS偽運営",
+          "public_flags": 0,
+          "id": "896414706191958016",
+          "discriminator": "3327",
+          "bot": true,
+          "avatar": "3c2ef1cb6a8a0c233f74debde9ee3cdc"
+        },
+        {
+          "username": "moru3_48",
+          "public_flags": 0,
+          "id": "783253383397769236",
+          "discriminator": "3651",
+          "avatar": "ff5f326921de8c0b9ecec7d00d9459ec"
+        }
+      ],
+      "mention_roles": [
+        "896766500873043999"
+      ],
+      "mention_everyone": false,
+      "id": "897158852330545213",
+      "flags": 0,
+      "embeds": [],
+      "edited_timestamp": null,
+      "content": "\u003c@!896414706191958016\u003e \u003c@!783253383397769236\u003e \u003c@\u0026896766500873043999\u003e",
+      "components": [],
+      "channel_id": "850376995145515028",
+      "author": {
+        "username": "moru3_48",
+        "public_flags": 0,
+        "id": "783253383397769236",
+        "discriminator": "3651",
+        "avatar": "ff5f326921de8c0b9ecec7d00d9459ec"
+      },
+      "attachments": []
+    },
+    "pinned": false,
+    "message_reference": {
+      "message_id": "897158852330545213",
+      "guild_id": "817821665139359744",
+      "channel_id": "850376995145515028"
+    },
+    "mentions": [
+      {
+        "username": "RTS偽運営",
+        "public_flags": 0,
+        "member": {
+          "roles": [
+            "896766500873043999"
+          ],
+          "mute": false,
+          "joined_at": "2021-10-10T14:29:54.962000+00:00",
+          "hoisted_role": null,
+          "deaf": false
+        },
+        "id": "896414706191958016",
+        "discriminator": "3327",
+        "bot": true,
+        "avatar": "3c2ef1cb6a8a0c233f74debde9ee3cdc"
+      },
+      {
+        "username": "moru3_48",
+        "public_flags": 0,
+        "member": {
+          "roles": [],
+          "mute": false,
+          "joined_at": "2021-03-06T18:11:19.364000+00:00",
+          "hoisted_role": null,
+          "deaf": false
+        },
+        "id": "783253383397769236",
+        "discriminator": "3651",
+        "avatar": "ff5f326921de8c0b9ecec7d00d9459ec"
+      }
+    ],
+    "mention_roles": [
+      "896766500873043999"
+    ],
+    "mention_everyone": true,
+    "member": {
+      "roles": [],
+      "mute": false,
+      "joined_at": "2021-03-06T18:11:19.364000+00:00",
+      "hoisted_role": null,
+      "deaf": false
+    },
+    "id": "897160168733802556",
+    "flags": 0,
+    "embeds": [],
+    "edited_timestamp": null,
+    "content": "\u003c@!896414706191958016\u003e \u003c@!783253383397769236\u003e \u003c@\u0026896766500873043999\u003e @here @everyone",
+    "components": [],
+    "channel_id": "850376995145515028",
+    "author": {
+      "username": "moru3_48",
+      "public_flags": 0,
+      "id": "783253383397769236",
+      "discriminator": "3651",
+      "avatar": "ff5f326921de8c0b9ecec7d00d9459ec"
+    },
+    "attachments": [
+      {
+        "width": 2048,
+        "url": "https://cdn.discordapp.com/attachments/850376995145515028/897160168524115988/b9fc07e880f270ce.png",
+        "size": 136519,
+        "proxy_url": "https://media.discordapp.net/attachments/850376995145515028/897160168524115988/b9fc07e880f270ce.png",
+        "id": "897160168524115988",
+        "height": 2048,
+        "filename": "b9fc07e880f270ce.png",
+        "content_type": "image/png"
+      }
+    ],
+    "guild_id": "817821665139359744"
+  }
+}
