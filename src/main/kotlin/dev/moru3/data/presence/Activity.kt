@@ -1,7 +1,7 @@
-package dev.moru3.data
+package dev.moru3.data.presence
 
 import com.google.gson.annotations.SerializedName
-import java.time.LocalDateTime
+import java.util.*
 
 class Activity(
     /**
@@ -24,7 +24,7 @@ class Activity(
      * ゲームの開始/終了時のタイムスタンプ
      */
     @Transient
-    val timestamp: LocalDateTime? = null,
+    val timestamp: Date? = null,
 
     /**
      * ゲームのアプリケーションID

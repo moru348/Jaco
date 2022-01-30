@@ -1,13 +1,11 @@
 package dev.moru3.event
 
-import dev.moru3.connector.Connector
-import io.ktor.util.reflect.*
-import java.lang.reflect.Field
+import dev.moru3.connector.GatewayConnector
 import java.lang.reflect.Method
 import java.util.*
 import java.util.concurrent.Executors
 
-open class EventManager(val connector: Connector) {
+open class EventManager(val connector: GatewayConnector) {
 
     val listeners = mutableMapOf<Class<*>, TreeMap<Int, MutableList<Pair<Any, Method>>>>()
 

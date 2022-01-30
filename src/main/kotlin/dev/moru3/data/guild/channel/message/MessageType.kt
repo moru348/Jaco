@@ -1,4 +1,4 @@
-package dev.moru3.data
+package dev.moru3.data.guild.channel.message
 
 enum class MessageType(val value: Int) {
     DEFAULT(0),

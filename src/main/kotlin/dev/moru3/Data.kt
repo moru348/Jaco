@@ -5,8 +5,7 @@ import com.google.gson.annotations.SerializedName
 import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonWriter
-import java.lang.reflect.Field
-import java.lang.reflect.Type
+
 
 object Data {
     val gson = GsonBuilder().registerTypeAdapterFactory(object: TypeAdapterFactory {
@@ -40,5 +39,5 @@ object Data {
                 }
             }
         }
-    }).create()
+    }).setDateFormat("yyyy-MM-dd'T'HH:mm:ssX").create()
 }

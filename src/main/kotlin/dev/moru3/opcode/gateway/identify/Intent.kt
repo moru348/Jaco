@@ -1,4 +1,4 @@
-package dev.moru3.identify
+package dev.moru3.opcode.gateway.identify
 
 
 enum class Intent(b: Int) {

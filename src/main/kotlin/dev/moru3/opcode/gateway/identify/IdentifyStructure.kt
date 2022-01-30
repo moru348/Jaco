@@ -1,9 +1,8 @@
-package dev.moru3.identify
+package dev.moru3.opcode.gateway.identify
 
 import com.google.gson.annotations.SerializedName
-import dev.moru3.data.OpCode
 
-class Identify(
+class IdentifyStructure(
     val token: String,
     @Transient
     val intentList: Array<out Intent>

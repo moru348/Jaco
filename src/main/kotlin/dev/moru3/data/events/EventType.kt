@@ -1,4 +1,4 @@
-package dev.moru3.data
+package dev.moru3.data.events
 
 enum class EventType {
     READY,
@@ -7,9 +7,8 @@ enum class EventType {
     GUILD_CREATE,
     CHANNEL_CREATE,
     VOICE_CHANNEL_SELECT,
-    VOICE_STATE_CREATE,
-    VOICE_STATE_UPDATE,
-    VOICE_STATE_DELETE,
+    VOICE_SERVER_UPDATE, //VoiceServerUpdateEvent
+    VOICE_STATE_UPDATE, //VoiceStateUpdateEvent
     VOICE_SETTINGS_UPDATE,
     VOICE_CONNECTION_STATUS,
     SPEAKING_START,

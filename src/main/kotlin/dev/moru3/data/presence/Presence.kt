@@ -1,4 +1,4 @@
-package dev.moru3.data
+package dev.moru3.data.presence
 
 import dev.moru3.SerializeNull
 

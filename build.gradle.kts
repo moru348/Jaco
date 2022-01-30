@@ -15,6 +15,7 @@ application {
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://jitpack.io") }
 }
 
 dependencies {
@@ -28,4 +29,7 @@ dependencies {
     implementation("io.ktor:ktor-client-core:$ktor_version")
     implementation("io.ktor:ktor-client-cio:$ktor_version")
     implementation("io.ktor:ktor-client-jetty:$ktor_version")
+    implementation("io.ktor:ktor-network:$ktor_version")
+    implementation("io.github.instantwebp2p:tweetnacl-java:1.1.2")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
 }
